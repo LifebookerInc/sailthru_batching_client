@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "sailthru_batching_client"
   gem.homepage = "http://github.com/LifebookerInc/sailthru_batching_client"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Sailthru Client with Batching}
+  gem.description = %Q{Sailthru Client with Batching}
   gem.email = "dan.langevin@lifebooker.com"
   gem.authors = ["Dan Langevin"]
   # dependencies defined in Gemfile
