@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/sailthru_batching_client.rb",
+    "sailthru_batching_client.gemspec",
     "spec/sailthru_batching_client_spec.rb",
     "spec/spec_helper.rb"
   ]
