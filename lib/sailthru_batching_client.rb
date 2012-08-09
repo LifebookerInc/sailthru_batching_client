@@ -1,6 +1,6 @@
 require 'sailthru'
 
-class SailthruImporter
+class SailthruBatchingClient
 
   class << self
     attr_accessor :api_key, :api_secret
@@ -111,7 +111,7 @@ class SailthruImporter
   def self.send_file(file)
     i = 0
     begin
-      SailthruImporter.api_post(
+      SailthruBatchingClient.api_post(
         :job,
         {"job" => "update", "file" => file},
         "file"

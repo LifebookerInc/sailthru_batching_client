@@ -10,7 +10,7 @@ Spork.prefork do
   $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
   $LOAD_PATH.unshift(File.dirname(__FILE__))
   require 'rspec'
-  require 'sailthru_importer'
+  require 'sailthru_batching_client'
   require "ruby-debug"
   Debugger.start
 
